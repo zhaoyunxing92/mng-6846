@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.github.sunny</groupId>
-    <artifactId>mng6844</artifactId>
+    <artifactId>mng6846</artifactId>
     <packaging>pom</packaging>
     <version>${revision}</version>
 
