@@ -3,13 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>mng6846</artifactId>
+        <artifactId>mng-6846</artifactId>
         <groupId>io.github.sunny</groupId>
         <version>${revision}</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>mode01</artifactId>
+    <artifactId>model01</artifactId>
 
     <dependencies>
         <dependency>

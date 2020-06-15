@@ -5,18 +5,19 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.github.sunny</groupId>
-    <artifactId>mng6846</artifactId>
+    <artifactId>mng-6846</artifactId>
     <packaging>pom</packaging>
     <version>${revision}</version>
 
     <modules>
-        <module>mode01</module>
+        <module>model01</module>
         <module>model02</module>
     </modules>
 
     <properties>
         <revision>2.0</revision>
         <dubbo.version>2.7.3</dubbo.version>
+        <flatten.maven.plugin.version>1.1.0</flatten.maven.plugin.version>
     </properties>
 
    <dependencyManagement>
@@ -39,7 +40,7 @@
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>flatten-maven-plugin</artifactId>
-                <version>1.1.0</version>
+                <version>${flatten.maven.plugin.version}</version>
                 <configuration>
                     <updatePomFile>true</updatePomFile>
                     <flattenMode>resolveCiFriendliesOnly</flattenMode>
