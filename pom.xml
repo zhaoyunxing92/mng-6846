@@ -10,8 +10,8 @@
     <version>${revision}</version>
 
     <modules>
-        <module>model01</module>
-        <module>model02</module>
+        <module>goods</module>
+        <module>order</module>
     </modules>
 
     <properties>
@@ -24,7 +24,7 @@
        <dependencies>
            <dependency>
                <groupId>io.github.sunny</groupId>
-               <artifactId>model02</artifactId>
+               <artifactId>order</artifactId>
                <version>${project.version}</version>
            </dependency>
            <dependency>
